@@ -1,97 +1,143 @@
 [[libevent]]
-arch = "armv7l"
-git-tree-sha1 = "dd932b742869da17f09eac72e3dadd8e1d0a0ee8"
-libc = "glibc"
-os = "linux"
-
-    [[libevent.download]]
-    sha256 = "64f14c7dcaace9123e260149910d4d69a026714e2045264ffff66fb0cd502b82"
-    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.11+0/libevent.v2.1.11.arm-linux-gnueabihf.tar.gz"
-[[libevent]]
-arch = "x86_64"
-git-tree-sha1 = "0d3e616ddf917f40adcd185df76e65546af3622b"
-libc = "glibc"
-os = "linux"
-
-    [[libevent.download]]
-    sha256 = "45e16d77013c19c1c7cf1a423319b7b725df28159fd2362628bd9745e0608c40"
-    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.11+0/libevent.v2.1.11.x86_64-linux-gnu.tar.gz"
-[[libevent]]
 arch = "aarch64"
-git-tree-sha1 = "1441caa78387ee3dc76428eda1f72e7348bbb8fc"
-libc = "musl"
-os = "linux"
-
-    [[libevent.download]]
-    sha256 = "58ca007d25384c32e5446ba7e9dc31352d0dcb96b942fb379a5a524491fd9bbc"
-    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.11+0/libevent.v2.1.11.aarch64-linux-musl.tar.gz"
-[[libevent]]
-arch = "powerpc64le"
-git-tree-sha1 = "9cfd77996d070f7974fb39ed0c9321663690c068"
-libc = "glibc"
-os = "linux"
-
-    [[libevent.download]]
-    sha256 = "5e6d41ff1be610fe8826a91aec159514f6813a6a57fc441225fafbf24b0e2925"
-    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.11+0/libevent.v2.1.11.powerpc64le-linux-gnu.tar.gz"
-[[libevent]]
-arch = "x86_64"
-git-tree-sha1 = "4e9b8d9ef0f03ca5168a875094291b444a8294c5"
+git-tree-sha1 = "59b70cd3466b622dd7657d219498cb8ed4fb2a7f"
 os = "macos"
 
     [[libevent.download]]
-    sha256 = "72eebfac0627ec030bd8f44ac6b71e030c92c04e79d152498a0f253a331e3983"
-    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.11+0/libevent.v2.1.11.x86_64-apple-darwin14.tar.gz"
-[[libevent]]
-arch = "x86_64"
-git-tree-sha1 = "6e34b89ee93b3389efa1d931bef5a728a0578e10"
-libc = "musl"
-os = "linux"
-
-    [[libevent.download]]
-    sha256 = "8b552705f97163a1da8bd881313e905e32ef391512d0b3966b6e51459def79e5"
-    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.11+0/libevent.v2.1.11.x86_64-linux-musl.tar.gz"
-[[libevent]]
-arch = "i686"
-git-tree-sha1 = "f0d85024bc4d1a6ac97a9a711fd53231ebe46dbf"
-libc = "glibc"
-os = "linux"
-
-    [[libevent.download]]
-    sha256 = "eeaefd9e03ede1f34101294ed279dd5aa53420dcfba1884a8290f63ef0c23dba"
-    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.11+0/libevent.v2.1.11.i686-linux-gnu.tar.gz"
+    sha256 = "c1a5de892b140704baadb21b49706dfe474eaf7db57727d39e3d302011830431"
+    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.12+0/libevent.v2.1.12.aarch64-apple-darwin.tar.gz"
 [[libevent]]
 arch = "aarch64"
-git-tree-sha1 = "2bdfb6d5c96e41a827677d7fc9fad30f0ee35e9a"
+git-tree-sha1 = "1860817cf94529396ab040920f3647b1048a6cad"
 libc = "glibc"
 os = "linux"
 
     [[libevent.download]]
-    sha256 = "b7822aff126e1d07ec90528ff7d29fa67c07378506665081d69e2859df7fb5c7"
-    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.11+0/libevent.v2.1.11.aarch64-linux-gnu.tar.gz"
+    sha256 = "f55efbadc4c668cb006520fdc910eef7b0c268fbcbb91b2eaceb7f0b3528104c"
+    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.12+0/libevent.v2.1.12.aarch64-linux-gnu.tar.gz"
 [[libevent]]
-arch = "i686"
-git-tree-sha1 = "94c2a803ee258baa65a3baede99d765a5556bacc"
+arch = "aarch64"
+git-tree-sha1 = "d9476f1cc42e299fc111225df95581c3e804b420"
 libc = "musl"
 os = "linux"
 
     [[libevent.download]]
-    sha256 = "42fbfa77c6613f71d409cf62cb8f70c80ad4578b5a3f11127368e42feb450e42"
-    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.11+0/libevent.v2.1.11.i686-linux-musl.tar.gz"
+    sha256 = "185f90439590ec0aaee1efb405795ca749ebe1488a4b23515e42493e474c6a31"
+    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.12+0/libevent.v2.1.12.aarch64-linux-musl.tar.gz"
+[[libevent]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "bb719f62f32745983ddfedae03e4df45e89eda32"
+libc = "glibc"
+os = "linux"
+
+    [[libevent.download]]
+    sha256 = "73f78041eb26a75024865baaa0fb3dd8990fb62cbe3d09b999589a034dc036d5"
+    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.12+0/libevent.v2.1.12.armv6l-linux-gnueabihf.tar.gz"
+[[libevent]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "1046c207eb39832ce1cb9568b2a71009687e248d"
+libc = "musl"
+os = "linux"
+
+    [[libevent.download]]
+    sha256 = "aba7f13cc5e3645a03b7951a1c56c67338a2827f06d8f3b96859c0187dcb924a"
+    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.12+0/libevent.v2.1.12.armv6l-linux-musleabihf.tar.gz"
+[[libevent]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "ce53a8dcfe3f7918b9dfd85382be5f4d53b2ff6d"
+libc = "glibc"
+os = "linux"
+
+    [[libevent.download]]
+    sha256 = "8aae604ad0edfdcbb487e6af5b6499cc34a0c90ed9cb52aa779283017b645062"
+    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.12+0/libevent.v2.1.12.armv7l-linux-gnueabihf.tar.gz"
+[[libevent]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "72150c26e28f41772cb9204751b0da8f7606c8b5"
+libc = "musl"
+os = "linux"
+
+    [[libevent.download]]
+    sha256 = "c6e2551e7feb6c1076715d1265fce3b5aacc15dd18f304feeda42c89309104bd"
+    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.12+0/libevent.v2.1.12.armv7l-linux-musleabihf.tar.gz"
+[[libevent]]
+arch = "i686"
+git-tree-sha1 = "89a4591ae1fb54d2a2227d3172e6d3ec8881e78f"
+libc = "glibc"
+os = "linux"
+
+    [[libevent.download]]
+    sha256 = "ed1ffb8b3b2faac8ad35aff160e7ae2818bdff6d975e0d18ce1009759dd333b2"
+    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.12+0/libevent.v2.1.12.i686-linux-gnu.tar.gz"
+[[libevent]]
+arch = "i686"
+git-tree-sha1 = "500a8906be6b52a11a256352b3da4372f5f1cffd"
+libc = "musl"
+os = "linux"
+
+    [[libevent.download]]
+    sha256 = "c98bfdd2a8d2585305c3c1006aeb128c461c5bbb40890c1a98dd3c9e78d9ff85"
+    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.12+0/libevent.v2.1.12.i686-linux-musl.tar.gz"
+[[libevent]]
+arch = "i686"
+git-tree-sha1 = "900f7ce53a825f3731bc73de60164755e4fbff33"
+os = "windows"
+
+    [[libevent.download]]
+    sha256 = "ba821fd5d9772607c8c25ca1ffc792231c4b48b66a44911e227f76e8dd401273"
+    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.12+0/libevent.v2.1.12.i686-w64-mingw32.tar.gz"
+[[libevent]]
+arch = "powerpc64le"
+git-tree-sha1 = "026233320d59d00f3812bacf104b14fcb7830bb5"
+libc = "glibc"
+os = "linux"
+
+    [[libevent.download]]
+    sha256 = "dced4a741f4ade303b10238d4f48ac4b77c1f415c0f2d9fb6e40dace1513f949"
+    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.12+0/libevent.v2.1.12.powerpc64le-linux-gnu.tar.gz"
 [[libevent]]
 arch = "x86_64"
-git-tree-sha1 = "64c57acf8c6fc16eda52aecb973d6fc4f727fc29"
+git-tree-sha1 = "2b97790685a39426a473cf20d9e4e7d4c28252dd"
+os = "macos"
+
+    [[libevent.download]]
+    sha256 = "976517453a8882fecef73ad2f6a3e71664d67c709eea82c33456ef9b492a383a"
+    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.12+0/libevent.v2.1.12.x86_64-apple-darwin.tar.gz"
+[[libevent]]
+arch = "x86_64"
+git-tree-sha1 = "32435ccbc7affbd03ca9ecc3061735e3b5246435"
+libc = "glibc"
+os = "linux"
+
+    [[libevent.download]]
+    sha256 = "0ab8b3f74da34befcdcb885fe26597550b509ab12df06117bd11857d9bf7b277"
+    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.12+0/libevent.v2.1.12.x86_64-linux-gnu.tar.gz"
+[[libevent]]
+arch = "x86_64"
+git-tree-sha1 = "1ab8c578d28a3c43d833223706bdc506ea5938d7"
+libc = "musl"
+os = "linux"
+
+    [[libevent.download]]
+    sha256 = "c787b24672bb3b5ada1cd22aba0dbf74761488522dd1c46f9ab7ea04a33d7c6b"
+    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.12+0/libevent.v2.1.12.x86_64-linux-musl.tar.gz"
+[[libevent]]
+arch = "x86_64"
+git-tree-sha1 = "be57a0e253eddac7a5403eb065b02fa26a473b26"
 os = "freebsd"
 
     [[libevent.download]]
-    sha256 = "6e605730c3109ddf889cf708bfa645c4454f323aa0b82d668e89c3d53b11b1ea"
-    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.11+0/libevent.v2.1.11.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "a5011e33333d40b880b1c8c4bbd3f00b8de3e6f45c9af73f7cc073f643180d3d"
+    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.12+0/libevent.v2.1.12.x86_64-unknown-freebsd.tar.gz"
 [[libevent]]
-arch = "armv7l"
-git-tree-sha1 = "c46045d76b78597e05a9fda925315cf61d093e3c"
-libc = "musl"
-os = "linux"
+arch = "x86_64"
+git-tree-sha1 = "c98c97667ef974653c650475627994ab1add7f94"
+os = "windows"
 
     [[libevent.download]]
-    sha256 = "9283f715ae4246b8c1d1dc1443c673251b49a9cbae465ef8a0740e5e3acff4b3"
-    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.11+0/libevent.v2.1.11.arm-linux-musleabihf.tar.gz"
+    sha256 = "317207f9ff94203120d68bd88b74285cb29507a41d00fbe746b2994ed20056e2"
+    url = "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.12+0/libevent.v2.1.12.x86_64-w64-mingw32.tar.gz"
